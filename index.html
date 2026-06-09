@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ember Gwyneth A. Quisado</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<div id="imageModal" class="modal">
+    <span class="close-btn">&times;</span>
+    <img id="modalImg" class="modal-content">
+</div>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+    <div class="nav-container">
+
+        <!-- LEFT ICON (HOME) -->
+        <div class="nav-icon-circle">
+            <a href="#home">
+    <i class="fa-solid fa-house"></i>
+                
+            </a>
+        </div>
+
+        <!-- MENU -->
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#milestones">Milestones</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+
+    </div>
+</nav>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+    
+</a>
+    <div class="hero-text">
+        <h2>Hello,</h2>
+<h2>I'm <span class="name"> Ember</span></h2>
+  <h2> <span class="name">Gwyneth</span></h2>
+  <h2> <span class="name">Quisado</span></h2>
+
+        <p>
+            Adaptable Information Technology student
+            blending technical skills with communication
+            and collaboration abilities.
+        </p>
+
+        <div class="buttons">
+    <a href="C:\Users\User\Desktop\Portfolio\Pictures\QUISADO CV.pdf" class="btn primary" target="_blank">
+        Download Resume
+    </a>
+
+    <a href="#contact" class="btn secondary">
+        Contact Me
+    </a>
+</div>
+    </div>
+
+    <div class="hero-image">
+    <img src="C:\Users\User\Desktop\Portfolio\Pictures\gwy - Copy.jpg" alt="Ember Gwyneth Quisado">
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        Hi everyone! I'm <b>Ember Gwyneth A. Quisado</b>,
+        an Information Technology student passionate about
+         combining creativity and technology to bring ideas to life. 
+        I have experience in presentation design, and editing, allowing 
+        me to create visually engaging and meaningful content.
+    </p>
+
+    <p>
+        My background in IT has strengthened my problem-solving abilities, 
+        communication skills, and adaptability in different working environments.
+         I am also skilled in administrative support, office operations with ICT skills,
+          business process analysis, and teamwork, which help me work efficiently both
+           independently and with a team. I enjoy learning new things, collaborating with others,
+            and turning creative ideas into impactful results.
+    </p>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="skills">
+
+    <h2>Core Skills</h2>
+
+    <p class="skills-subtitle">BUSINESS PROCESS & ICT</p>
+
+    <div class="skill-tags">
+
+        <div class="skill-item">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Administrative Support</span>
+        </div>
+
+        <div class="skill-item">
+            <i class="fa-solid fa-gear"></i>
+            <span>Office Operations</span>
+        </div>
+
+        <div class="skill-item">
+            <i class="fa-regular fa-message"></i>
+            <span>Communication</span>
+        </div>
+
+        <div class="skill-item">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Process Analysis</span>
+        </div>
+
+        <div class="skill-item">
+            <i class="fa-solid fa-people-group"></i>
+            <span>Teamwork</span>
+        </div>
+
+    </div>
+
+</section>
+<!-- PROJECTS -->
+
+<section id="projects">
+
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="cards">
+
+        <!-- Project 1 -->
+        <div class="card">
+    <img src="C:\Users\User\Desktop\Portfolio\Pictures\ecooo.jpg" alt="EcoSpray" class="clickable-image">
+
+    <h3>ECOSPRAY IoT System</h3>
+    <p>
+        IoT-based sprinkler and monitoring
+        system for Panabo Park Nursery.
+    </p>
+</div>
+
+<div class="card">
+    <img src="C:\Users\User\Desktop\Portfolio\Pictures\deathcare.png" alt="Mobile Application for Streamlined Funeral Planning" class="clickable-image">
+
+    <h3>Mobile Application for Streamlined Funeral Planning
+</h3>
+    <p>
+        Mobile app design for funeral planning with customizable packages, online payment, and grief support resources.
+    </p>
+</div>
+
+    </div>
+
+</section>
+
+<!-- MILESTONES -->
+
+<section id="milestones">
+
+<h2 class="section-title">Milestones & Achievements</h2>
+
+<div class="milestone-tabs">
+    <button class="tab-btn active" onclick="showTab('achievements')">
+        Achievements
+    </button>
+
+    <button class="tab-btn" onclick="showTab('awards')">
+        Academic Awards
+    </button>
+</div>
+
+<div id="achievements" class="tab-content active">
+
+    <!-- LEVEL APP -->
+    <div class="achievement-card">
+        <div class="achievement-text">
+            <h3>LEVEL APP 2.0: Presentation of Student Innovations</h3>
+            <p>
+                Highlighting the students' creativity, design thinking,
+                and user-centered innovations.
+            </p>
+        </div>
+
+        <div class="achievement-gallery">
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\levell.jpg" alt="LEVEL APP"
+                 onclick="openImage(this.src)">
+             
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\level app.jpg" alt="LEVEL APP"
+                 onclick="openImage(this.src)">     
+        </div>
+    </div>
+
+    <!-- ECOSPRAY -->
+    <div class="achievement-card">
+
+        <div class="achievement-gallery">
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Eco.jpg" alt="EcoSpray"
+                 onclick="openImage(this.src)">
+
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Capstone certificate from organization.png" alt="EcoSpray"
+                 onclick="openImage(this.src)">
+        </div>
+
+        <div class="achievement-text">
+            <h3>ECOSPRAY: Capstone Project Deployment</h3>
+            <p>
+                Successfully presented, deployed, and implemented an
+                IoT-based sprinkler and monitoring system for Panabo
+                Park Nursery in collaboration with CENRO.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- EXHIBIT -->
+    <div class="achievement-card">
+
+        <div class="achievement-text">
+            <h3>BSIT & BSIS Capstone Project Exhibit 2026</h3>
+            <p>
+                Presented the EcoSpray: An IoT-Based Sprinkler and
+                Monitoring System during the Capstone Exhibit.
+            </p>
+        </div>
+
+        <div class="achievement-gallery">
+            <img src="Pictures/exhibit '26.jpg" alt="Exhibit"
+                 onclick="openImage(this.src)">
+
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Exhibit Cert..png" alt="Exhibit"
+                 onclick="openImage(this.src)">
+        </div>
+
+    </div>
+
+    <!-- OJT -->
+<div class="achievement-card">
+
+    <div class="achievement-gallery">
+        <img src="C:\Users\User\Desktop\Portfolio\Pictures\OJT.jpg" alt="OJT"
+             onclick="openImage(this.src)">
+
+        <img src="C:\Users\User\Desktop\Portfolio\Pictures\OJT Certificate.jpg" alt="OJT"
+             onclick="openImage(this.src)">
+    </div>
+
+    <div class="achievement-text">
+        <h3>On-the-Job Training: National Irrigation Administration</h3>
+        <p>
+            Successfully completed 486 hours of On-the-Job Training
+            (OJT) in Information Technology at the NIA – Davao del Norte
+            Irrigation Management Office.
+        </p>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="awards" class="tab-content">
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Dean's Lister</h3>
+            <p>First Semester A.Y. 2022–2023</p>
+        </div>
+
+        <div class="card">
+            <h3>Dean's Lister</h3>
+            <p>Second Semester A.Y. 2022–2023</p>
+        </div>
+
+        <div class="card">
+            <h3>Dean's Lister</h3>
+            <p>First Semester A.Y. 2023–2024</p>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+</section>
+
+
+<!-- CERTIFICATES -->
+
+<section id="certificates">
+
+    <h2 class="section-title">Certificates</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Getting_Started_with_Cisco_Packet_Tracer_certificate.jpg"
+     alt="Certificate"
+     onclick="openImage(this.src)"
+     class="clickable-image">
+            <h3>Cisco Packet Tracer</h3>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Ethical_Hacker_certificate.jpg"
+     alt="Certificate"
+     onclick="openImage(this.src)"
+     class="clickable-image">
+            <h3>Ethical Hacker</h3>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Advance Seminar.png"
+     alt="Certificate"
+     onclick="openImage(this.src)"
+     class="clickable-image">
+            <h3>Advanced Seminar Series</h3>
+        </div>
+
+        <div class="card">
+           <img src="C:\Users\User\Desktop\Portfolio\Pictures\Jannicah.jpg"
+     alt="Certificate"
+     onclick="openImage(this.src)"
+     class="clickable-image">
+            <h3>Best Presenter Award</h3>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Tree.jpg"
+     alt="Certificate"
+     onclick="openImage(this.src)"
+     class="clickable-image">
+            <h3>Tree Planting Certificate</h3>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\User\Desktop\Portfolio\Pictures\Exhibit Cert..png"
+     alt="Certificate"
+     onclick="openImage(this.src)"
+     class="clickable-image">
+            <h3>BSIS & BSIS Exhibit</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <h4>LET'S CONNECT!</h4>
+
+    <h2>Say Hello.</h2>
+
+    <p>
+        Open to collaborations, opportunities,
+        and conversations.
+    </p>
+
+    <a href="mailto:embergwynethquisado@gmail.com" class="email">
+    <i class="fa-solid fa-envelope"></i>
+    embergwynethquisado@gmail.com
+</a>
+
+    <p>Panabo City, Davao del Norte</p>
+
+    <h4 class="social-title">FIND ME ON</h4>
+
+<div class="socials">
+
+    <div class="social-item">
+        <a href="https://www.instagram.com/mbr_gwyn?igsh=bTdkMXB1cHgzeDE1" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <span>Instagram</span>
+    </div>
+
+    <div class="social-item">
+        <a href="https://www.facebook.com/share/17k9FZHnmv/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <span>Facebook</span>
+    </div>
+
+    <div class="social-item github-item">
+    <a href="https://github.com/embergwynethquisado-egq" target="_blank">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+    </a>
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+ <div style="text-align: center; max-width: 600px; margin: 0 auto; padding: 3rem; background: var(--bg-light); border-radius: 15px;">
+            <p style="color: var(--text-light); margin-bottom: 2rem; font-size: 1.1rem;">
+    <footer>
+        <p>&copy; 2026 Ember Gwyneth Quisado. All Rights Reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+
+<script>
+const modal = document.getElementById("imageModal");
+const modalImg = document.getElementById("modalImg");
+const closeBtn = document.querySelector(".close-btn");
+
+document.querySelectorAll(".clickable-image").forEach(img => {
+    img.addEventListener("click", () => {
+        modal.style.display = "flex";
+        modalImg.src = img.src;
+    });
+});
+
+closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+});
+
+modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+        modal.style.display = "none";
+    }
+});
+</script>
+
+</body>
+</html>
